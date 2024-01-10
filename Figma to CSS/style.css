@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #fce7ff;
+  font-family: "Poppins";
+  margin: 6.2em;
+  /* html font size / 10 */
+}
+h1 {
+  margin: 0 0 1.46em 0;
+  /* 38/26 */
+  font-size: 2.6rem;
+  line-height: 120%;
+}
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-color: #933a9f;
+  display: inline-block;
+  font-size: 1.6rem;
+  /* means 16 px */
+  padding: 1em 1.25em;
+  border-radius: 0.6rem;
+  /* the padding left and right width is 20px, so the calculation is 20/16*/
+}
+/* Typically I use em for margin and padding */
