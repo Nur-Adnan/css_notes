@@ -1,0 +1,47 @@
+body {
+  background-color: #20262c;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+article {
+  width: 300px;
+  background-color: #2f3740;
+  padding: 1.125em;
+  border-radius: 1em;
+}
+img {
+  width: 100%;
+  border-radius: 0.4em;
+}
+.tag {
+  color: #beff00;
+  background-color: #455260;
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 0.4em;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+h1 a {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 120%;
+}
+a.cta {
+  display: flex;
+  color: white;
+}
+a.cta p {
+  margin: 0px;
+  color: #b1c4d9;
+}
+svg {
+  align-self: center;
+  margin-left: 0.5em;
+}
